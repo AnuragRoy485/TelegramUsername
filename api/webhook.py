@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-BOT_TOKEN = os.environ.get("8563744395:AAH40qsGbnA6XrCpmTpBZb5eg_pVBy8eYgM")
+BOT_TOKEN = os.environ.get("8563744395:AAF3db-clfpIkOj1OIba1lBFA8QpTVVNnLI")
 
 async def info(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not context.args:
