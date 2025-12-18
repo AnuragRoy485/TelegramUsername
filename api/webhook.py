@@ -26,4 +26,4 @@ async def handler(request):
     update = Update.de_json(await request.json(), app.bot)
     await app.process_update(update)
 
-    return {"status": "ok"}
+    return {"ok": True}
